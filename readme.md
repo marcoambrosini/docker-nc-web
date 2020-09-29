@@ -28,7 +28,7 @@ docker-compose up -d
 docker exec -it docker-nextcloud-website_wordpress_1 cp wp-content/themes/next/config.php.sample wp-content/themes/next/config.php
 ```
 
-- Access the site from [localhost:8084/wp-admin](http://localhost:8084/wp-admin)
+- Access the site at [localhost:8084](http://localhost:8084)
 
 - Activate the "next" theme in Appearance -> Themes
 
@@ -37,3 +37,8 @@ docker exec -it docker-nextcloud-website_wordpress_1 cp wp-content/themes/next/c
   * Select the content.xml file from the repository and click upload
   * Select Import
 
+- Useful commands:
+	Open a shell in the wordpress container
+	```
+	docker-compose exec wordpress sh
+	```
