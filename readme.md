@@ -1,7 +1,9 @@
 # Spin this up
-​
+
+- [Install Docker](https://docs.docker.com/get-started/)
+
 - [Install docker-compose](https://docs.docker.com/compose/install/)
-​
+
 - Clone this repository
 
 
@@ -19,7 +21,7 @@ git clone https://github.com/nextcloud/nextcloud.com.git
 - Build the stack
 
 ```
-docker-compose up -d
+sudo docker-compose up -d
 ```
 
 - Copy the config.php
