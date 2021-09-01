@@ -27,7 +27,7 @@ sudo docker-compose up -d
 - Copy the config.php
 ​
 ```
-docker exec -it docker-nextcloud-website_wordpress_1 cp wp-content/themes/next/config.php.sample wp-content/themes/next/config.php
+docker-compose exec wordpress cp wp-content/themes/next/config.php.sample wp-content/themes/next/config.php
 ```
 
 - Access the site at [localhost:8084](http://localhost:8084)
