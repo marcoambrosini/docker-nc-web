@@ -8,7 +8,7 @@
 
 
 ```
-git clone https://github.com/ma12-co/docker-nextcloud-website.git
+git clone https://github.com/marcoambrosini/docker-nc-web.git
 ```
 
 - Clone the nextcloud website repository
